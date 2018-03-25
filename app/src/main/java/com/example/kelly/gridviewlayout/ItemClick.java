@@ -23,6 +23,8 @@ public class ItemClick extends AppCompatActivity {
         textView.setText(p.getName());
     }
 
+
+    // adds the menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.available_activities, menu);
